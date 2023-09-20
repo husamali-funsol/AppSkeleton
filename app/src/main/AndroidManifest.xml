@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
+
+    <application
+        android:allowBackup="true"
+        android:name=".ui.activities.MyApp"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ARRuler"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.activities.MainActivity"
+            android:exported="true"
+            android:resizeableActivity="false"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|density|colorMode|screenLayout|screenSize|fontScale|uiMode"
+            android:windowSoftInputMode="adjustNothing"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Its provide the AdMob application ID to the Google Mobile Ads SDK in your Android app. -->
+        <meta-data
+        android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="@string/admob_app_id" />
+
+        <!-- You are explicitly indicating that you want to disable the automatic tracking of screen views in Google Analytics for your application and manually send screen view events based on their app's logic.-->
+        <meta-data
+        android:name="google_analytics_automatic_screen_reporting_enabled"
+        android:value="false" />
+
+        <!-- Its specify the default notification icon for Firebase Cloud Messaging (FCM) notifications in your Android app. -->
+        <meta-data
+        android:name="com.google.firebase.messaging.default_notification_icon"
+        android:resource="@drawable/ic_notification" />
+
+        <!-- You are explicitly indicating that Crashlytics data collection is disabled in debug builds but enabled in release builds and it's enabled and disabled in build.gradle module file with in buildTypes tag -->
+        <meta-data
+        android:name="firebase_crashlytics_collection_enabled"
+        android:value="${crashlyticsCollectionEnabled}" />
+
+        <!-- By setting this flag, you're allowing the Google Mobile Ads SDK to initialize more efficiently, which can lead to improved app performance, user experience and reduced memory usage-->
+        <meta-data
+        android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
+        android:value="true" />
+
+        <!-- Its improves ad loading efficiency in Google Mobile Ads SDK (AdMob)-->
+        <meta-data
+        android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
+        android:value="true" />
+
+        <!-- Its allows you to preload specific fonts, ensuring consistent styling and potential performance enhancements in your Android app-->
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

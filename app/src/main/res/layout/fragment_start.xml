@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.fragments.splash.StartFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Splash Fragment"
+        android:textSize="@dimen/_16sdp"
+        app:layout_constraintBottom_toTopOf="@+id/native_container"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/native_container"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="@dimen/_36sdp"
+        android:background="@drawable/round_bg_10"
+        android:backgroundTint="@color/backGroundColor"
+        app:layout_constraintBottom_toTopOf="@id/pbStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/loading_ad"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/round_bg_10"
+            android:backgroundTint="@color/originalNativeColor"
+            android:gravity="center"
+            android:text="@string/loading_ad"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_11ssp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/admob_container"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/pbStart"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_24sdp"
+        android:progress="0"
+        android:progressDrawable="@drawable/progress_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tvLetsStart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:theme="@style/textRegular"
+        android:text="@string/let_s_start"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_13ssp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintBottom_toBottomOf="@id/pbStart"
+        app:layout_constraintEnd_toEndOf="@id/pbStart"
+        app:layout_constraintStart_toStartOf="@id/pbStart"
+        app:layout_constraintTop_toTopOf="@id/pbStart" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Sample App</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_info">Info</string>
+    <string name="title_setting">Settings</string>
+    <string name="restartingApp">Restarting App</string>
+    <string name="ad">AD</string>
+    <string name="loading_ad">Loading Ad…</string>
+    <string name="let_s_start">Lets start</string>
+    <string name="select_language">Select Language</string>
+    <string name="done">Done</string>
+    <string name="selected">Selected</string>
+    <string name="english">English\n</string>
+    <string name="all_languages">All Languages</string>
+    <string name="click_to_exit">Click to exit</string>
+    <string name="permission_granted">Permission granted</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">নমুনা অ্যাপ</string>
+    <string name="title_home">বাড়ি</string>
+    <string name="title_dashboard">ড্যাশবোর্ড</string>
+    <string name="title_notifications">বিজ্ঞপ্তি</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">হ্যালো ফাঁকা টুকরা</string>
+    <string name="title_info">তথ্য</string>
+    <string name="title_setting">সেটিংস</string>
+    <string name="restartingApp">অ্যাপ রিস্টার্ট করা হচ্ছে</string>
+    <string name="ad">বিজ্ঞাপন</string>
+    <string name="loading_ad">বিজ্ঞাপন লোড হচ্ছে...</string>
+    <string name="let_s_start">চল শুরু করি</string>
+    <string name="select_language">ভাষা নির্বাচন কর</string>
+    <string name="done">সম্পন্ন</string>
+    <string name="selected">নির্বাচিত</string>
+    <string name="english">ইংরেজি\n</string>
+    <string name="all_languages">সকল ভাষা</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">नमूना ऐप</string>
+    <string name="title_home">घर</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_notifications">सूचनाएं</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">नमस्कार रिक्त अंश</string>
+    <string name="title_info">जानकारी</string>
+    <string name="title_setting">समायोजन</string>
+    <string name="restartingApp">ऐप पुनः प्रारंभ हो रहा है</string>
+    <string name="ad">विज्ञापन</string>
+    <string name="loading_ad">विज्ञापन लोड हो रहा है…</string>
+    <string name="let_s_start">चलो शुरू करो</string>
+    <string name="select_language">भाषा चुने</string>
+    <string name="done">हो गया</string>
+    <string name="selected">गिने चुने</string>
+    <string name="english">अंग्रेजी\n</string>
+    <string name="all_languages">सारी भाषाएँ</string>
+</resources>

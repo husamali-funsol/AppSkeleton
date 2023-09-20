@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ukázka aplikace</string>
+    <string name="title_home">Domov</string>
+    <string name="title_dashboard">Přístrojová deska</string>
+    <string name="title_notifications">Oznámení</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Ahoj prázdný fragment</string>
+    <string name="title_info">Info</string>
+    <string name="title_setting">Nastavení</string>
+    <string name="restartingApp">Restartování aplikace</string>
+    <string name="ad">INZERÁT</string>
+    <string name="loading_ad">Načítání reklamy…</string>
+    <string name="let_s_start">Začněme</string>
+    <string name="select_language">Zvolte jazyk</string>
+    <string name="done">Hotovo</string>
+    <string name="selected">Vybraný</string>
+    <string name="english">Angličtina\n</string>
+    <string name="all_languages">Všechny jazyky</string>
+</resources>

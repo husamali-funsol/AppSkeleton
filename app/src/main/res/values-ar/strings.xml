@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">نموذج التطبيق</string>
+    <string name="title_home">بيت</string>
+    <string name="title_dashboard">لوحة القيادة</string>
+    <string name="title_notifications">إشعارات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">مرحبا جزء فارغ</string>
+    <string name="title_info">معلومات</string>
+    <string name="title_setting">إعدادات</string>
+    <string name="restartingApp">إعادة تشغيل التطبيق</string>
+    <string name="ad">إعلان</string>
+    <string name="loading_ad">جارٍ تحميل الإعلان ...</string>
+    <string name="let_s_start">لنبدأ</string>
+    <string name="select_language">اختار اللغة</string>
+    <string name="done">منتهي</string>
+    <string name="selected">المحدد</string>
+    <string name="english">الإنجليزية \ n</string>
+    <string name="all_languages">كل اللغات</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Exemple d\'application</string>
+    <string name="title_home">Maison</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Avis</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bonjour fragment vierge</string>
+    <string name="title_info">Info</string>
+    <string name="title_setting">Paramètres</string>
+    <string name="restartingApp">Redémarrage de l\'application</string>
+    <string name="ad">PUBLICITÉ</string>
+    <string name="loading_ad">Chargement de l\'annonce…</string>
+    <string name="let_s_start">Commençons</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="done">Fait</string>
+    <string name="selected">Choisi</string>
+    <string name="english">Anglais\n</string>
+    <string name="all_languages">Toutes les langues</string>
+</resources>

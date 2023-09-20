@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_startFragment">
+
+    <fragment
+        android:id="@+id/nav_homeFragment"
+        android:name="com.android.ar.ruler.ui.fragments.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_infoFragment"
+        android:name="com.android.ar.ruler.ui.fragments.info.InfoFragment"
+        android:label="fragment_ar_ruler"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
+        android:id="@+id/nav_startFragment"
+        android:name="com.android.ar.ruler.ui.fragments.splash.StartFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_start" />
+
+    <fragment
+        android:id="@+id/nav_settingsFragment"
+        android:name="com.android.ar.ruler.ui.fragments.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.android.ar.ruler.ui.fragments.language.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" />
+
+</navigation>
